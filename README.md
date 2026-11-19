@@ -1,4 +1,4 @@
-# Mosh
+# Mosh (Asiss-ai-)
 
 Mosh is an insurance assurance system: a FastAPI backend with a Next.js frontend.
 
