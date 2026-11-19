@@ -1,0 +1,25 @@
+.btn {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 50%;
+  background: var(--text);
+  color: var(--bg);
+  font-size: 13px;
+  cursor: pointer;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.btn:hover:not(:disabled) {
+  opacity: 0.85;
+  transform: scale(1.04);
+}
+
+.btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}

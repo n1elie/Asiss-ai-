@@ -1,0 +1,44 @@
+.avatar {
+  display: flex;
+  width: 26px;
+  height: 26px;
+  min-width: 26px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: 1px solid var(--logo-border);
+  background: var(--logo-bg);
+  color: var(--logo-fg);
+  box-shadow: 0 2px 8px var(--logo-shadow);
+}
+
+.mark {
+  width: 15px;
+  height: 15px;
+}
+
+.avatar.large {
+  width: 54px;
+  height: 54px;
+  min-width: 54px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px var(--logo-shadow);
+}
+
+.large .mark {
+  width: 32px;
+  height: 32px;
+}
+
+@media (max-width: 760px) {
+  .avatar.large {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+  }
+
+  .large .mark {
+    width: 23px;
+    height: 23px;
+  }
+}
